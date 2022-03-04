@@ -267,9 +267,9 @@
           day: icon('day'),
           night: icon('night')
         },
-        current: api('http://api.openweathermap.org/data/2.5/weather'),
-        forecast5: api('http://api.openweathermap.org/data/2.5/forecast'),
-        forecast16: api('http://api.openweathermap.org/data/2.5/forecast/daily')
+        current: api('https://api.openweathermap.org/data/2.5/weather'),
+        forecast5: api('https://api.openweathermap.org/data/2.5/forecast'),
+        forecast16: api('https://api.openweathermap.org/data/2.5/forecast/daily')
       };
     }];
   })
